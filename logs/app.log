@@ -1,0 +1,80 @@
+2025-07-01 10:58:14 |     INFO | root:82 | Logging configured - Level: INFO, File: logs/app.log
+2025-07-01 10:58:14 |     INFO | root:82 | Logging configured - Level: INFO, File: logs/app.log
+2025-07-01 10:58:14 |     INFO | main:32 | Starting Insurance Dashboard API...
+2025-07-01 10:58:16 |     INFO | app.database:52 | Database tables created successfully
+2025-07-01 10:58:16 |     INFO | main:39 | Database initialized successfully
+2025-07-01 10:58:38 |     INFO | root:82 | Logging configured - Level: INFO, File: logs/app.log
+2025-07-01 10:58:38 |     INFO | root:82 | Logging configured - Level: INFO, File: logs/app.log
+2025-07-01 10:58:39 |     INFO | main:32 | Starting Insurance Dashboard API...
+2025-07-01 10:58:41 |     INFO | app.database:52 | Database tables created successfully
+2025-07-01 10:58:41 |     INFO | main:39 | Database initialized successfully
+2025-07-01 10:58:48 |     INFO | root:82 | Logging configured - Level: INFO, File: logs/app.log
+2025-07-01 10:58:48 |     INFO | root:82 | Logging configured - Level: INFO, File: logs/app.log
+2025-07-01 10:58:48 |     INFO | main:32 | Starting Insurance Dashboard API...
+2025-07-01 10:58:50 |     INFO | app.database:52 | Database tables created successfully
+2025-07-01 10:58:50 |     INFO | main:39 | Database initialized successfully
+2025-07-01 11:02:32 |    ERROR | app.services.analytics:94 | Error generating dashboard overview: (psycopg2.OperationalError) SSL connection has been closed unexpectedly
+
+[SQL: SELECT count(payments.id) AS count_1 
+FROM payments]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-01 11:02:32 |    ERROR | app.routes.analytics:28 | Error fetching dashboard overview: (psycopg2.OperationalError) SSL connection has been closed unexpectedly
+
+[SQL: SELECT count(payments.id) AS count_1 
+FROM payments]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-01 11:02:32 |  WARNING | app.utils.exceptions:20 | HTTP 500 error: Failed to fetch dashboard overview - Path: /api/analytics/dashboard/overview
+2025-07-01 11:02:53 |     INFO | main:44 | Shutting down Insurance Dashboard API...
+2025-07-01 11:02:57 |     INFO | root:82 | Logging configured - Level: INFO, File: logs/app.log
+2025-07-01 11:02:57 |     INFO | root:82 | Logging configured - Level: INFO, File: logs/app.log
+2025-07-01 11:02:57 |     INFO | main:32 | Starting Insurance Dashboard API...
+2025-07-01 11:02:59 |     INFO | app.database:66 | Database tables created successfully
+2025-07-01 11:02:59 |     INFO | main:39 | Database initialized successfully
+2025-07-01 11:03:05 |    ERROR | app.services.analytics:94 | Error generating dashboard overview: (psycopg2.errors.UndefinedTable) relation "payments" does not exist
+LINE 2: FROM payments
+             ^
+
+[SQL: SELECT count(payments.id) AS count_1 
+FROM payments]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-07-01 11:03:05 |    ERROR | app.routes.analytics:28 | Error fetching dashboard overview: (psycopg2.errors.UndefinedTable) relation "payments" does not exist
+LINE 2: FROM payments
+             ^
+
+[SQL: SELECT count(payments.id) AS count_1 
+FROM payments]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-07-01 11:03:05 |  WARNING | app.utils.exceptions:20 | HTTP 500 error: Failed to fetch dashboard overview - Path: /api/analytics/dashboard/overview
+2025-07-01 11:04:42 |     INFO | main:44 | Shutting down Insurance Dashboard API...
+2025-07-01 11:04:46 |     INFO | root:82 | Logging configured - Level: INFO, File: logs/app.log
+2025-07-01 11:04:46 |     INFO | root:82 | Logging configured - Level: INFO, File: logs/app.log
+2025-07-01 11:04:46 |     INFO | main:32 | Starting Insurance Dashboard API...
+2025-07-01 11:04:48 |     INFO | app.database:67 | Database tables created successfully
+2025-07-01 11:04:48 |     INFO | main:39 | Database initialized successfully
+2025-07-01 11:04:54 |    ERROR | app.services.analytics:94 | Error generating dashboard overview: (psycopg2.errors.UndefinedTable) relation "payments" does not exist
+LINE 2: FROM payments
+             ^
+
+[SQL: SELECT count(payments.id) AS count_1 
+FROM payments]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-07-01 11:04:54 |    ERROR | app.routes.analytics:28 | Error fetching dashboard overview: (psycopg2.errors.UndefinedTable) relation "payments" does not exist
+LINE 2: FROM payments
+             ^
+
+[SQL: SELECT count(payments.id) AS count_1 
+FROM payments]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-07-01 11:04:54 |  WARNING | app.utils.exceptions:20 | HTTP 500 error: Failed to fetch dashboard overview - Path: /api/analytics/dashboard/overview
+2025-07-01 11:06:38 |     INFO | main:44 | Shutting down Insurance Dashboard API...
+2025-07-01 11:06:41 |     INFO | root:82 | Logging configured - Level: INFO, File: logs/app.log
+2025-07-01 11:06:41 |     INFO | root:82 | Logging configured - Level: INFO, File: logs/app.log
+2025-07-01 11:06:41 |     INFO | main:32 | Starting Insurance Dashboard API...
+2025-07-01 11:06:43 |     INFO | app.database:67 | Database tables created successfully
+2025-07-01 11:06:43 |     INFO | main:39 | Database initialized successfully
+2025-07-01 11:07:18 |     INFO | main:44 | Shutting down Insurance Dashboard API...
+2025-07-01 11:07:21 |     INFO | root:82 | Logging configured - Level: INFO, File: logs/app.log
+2025-07-01 11:07:21 |     INFO | root:82 | Logging configured - Level: INFO, File: logs/app.log
+2025-07-01 11:07:21 |     INFO | main:32 | Starting Insurance Dashboard API...
+2025-07-01 11:07:23 |     INFO | app.database:67 | Database tables created successfully
+2025-07-01 11:07:23 |     INFO | main:39 | Database initialized successfully
